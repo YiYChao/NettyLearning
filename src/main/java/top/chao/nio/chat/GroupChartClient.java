@@ -68,7 +68,7 @@ public class GroupChartClient {
     }
 
     public static void main(String[] args) throws IOException {
-        GroupChartClient client = new GroupChartClient();
+        final GroupChartClient client = new GroupChartClient();
         new Thread(){
           public void run(){
               while (true){
